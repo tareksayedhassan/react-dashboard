@@ -1,0 +1,62 @@
+/* Global */
+.content-flex {
+  display: flex;
+}
+.side-bar {
+  padding: 20px;
+  width: 20%;
+  border-right: 1px solid #cbc9c9;
+}
+.item-link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 10px;
+  transition: 0.1s;
+  padding-top: 10px;
+}
+.active {
+  background-color: #c1d0e6;
+  border-radius: 12px;
+}
+.item-link:hover {
+  background-color: #c1d0e6;
+  border-radius: 12px;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  table-layout: fixed;
+  margin: 2rem auto; /* محاذاة الجدول في المنتصف */
+}
+
+th,
+td {
+  border: 1px solid #d1d1d1; /* لون حدود خفيف وهادئ */
+  padding: 1rem;
+  text-align: center;
+}
+
+th {
+  background: #f5f5f5; /* خلفية فاتحة لرأس الجدول */
+  color: #555555; /* لون نص هادئ داكن */
+  font-size: 1.1rem;
+}
+
+td {
+  background: #ffffff; /* خلفية بيضاء للبيانات */
+  color: #333333; /* لون نص داكن وهادئ */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+}
+
+tr:nth-child(even) td {
+  background: #fafafa; /* خلفية خفيفة جداً للصفوف الزوجية */
+}
+
+tr:hover td {
+  background-color: #f1f1f1; /* تأثير hover خفيف على الصفوف */
+}
